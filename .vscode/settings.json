@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e8e042d3-fadc-4ade-92c2-f77550ae333e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/MiniCloud",
+    "appService.deploySubpath": "."
+}
