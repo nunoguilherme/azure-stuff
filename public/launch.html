@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MiniCloud SpaceX Launches API</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <script>
+    async function fetchLaunchData() {
+        const response = await fetch('/launch-data');
+        const data = await response.json();
+        document.getElementById('launchName').innerText = data.name;
+        document.getElementById('launchDate').innerText = new Date(data.date).toLocaleString();
+        document.getElementById('launchDetails').innerText = data.details;
+        document.getElementById('rocketId').innerText = data.rocket;
+        document.getElementById('launchpadId').innerText = data.launchpad;
+        document.getElementById('links').href = data.links.webcast;
+        document.getElementById('links').innerText = 'Watch the launch here!';
+    }
+    </script>
+</head>
+<body onload="fetchLaunchData()">
+    <div class="container">
+        <h1>Welcome to MiniCloud SpaceX Launches API!</h1>
+        <h2 id="launchName"></h2>
+        <p id="launchDate"></p>
+        <p id="launchDetails"></p>
+        <p>Rocket ID: <span id="rocketId"></span></p>
+        <p>Launchpad ID: <span id="launchpadId"></span></p>
+        <a id="links" href="#"></a>
+    </div>
+</body>
+</html>
+

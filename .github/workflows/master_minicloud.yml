@@ -63,3 +63,5 @@ jobs:
           app-name: 'MiniCloud'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC307E7A2532440C8EBF7FFF4B969020 }}
+          package: .
+        
