@@ -1,10 +1,14 @@
 const express = require('express');
 const axios = require('axios');
+const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
+// Set the path for static files
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.get('/', (req, res) => {
-  res.send('Welcome to MiniCloud SpaceX Launches API!');
+  res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
 app.get('/launches', async (req, res) => {
@@ -17,5 +21,5 @@ app.get('/launches', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`App listening at http://localhost:${port}`);
+  console.log(`App listening at port number: ${port}`);
 });
