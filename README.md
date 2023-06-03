@@ -1,6 +1,5 @@
 # Azure Stuff: MiniCloud Project ☁️🚀
 
-![Azure Cloud](https://via.placeholder.com/728)
 
 This repository contains the code for the MiniCloud project, a showcase of Azure Cloud computing capabilities. The project provides a simple way to create and manage virtual machines, storage accounts, and deploying web applications all within Azure.
 
