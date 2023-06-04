@@ -13,12 +13,13 @@ This project uses Python and the Azure SDK to interact with Azure services. Foll
 - Python: This project uses Python for scripting. Ensure you have Python installed on your system. If not, you can download it [here](https://www.python.org/downloads/).
 - Azure SDK: This project uses the Azure SDK to interact with Azure services. You can install it using pip:
 
-'pip install azure'
+`pip install azure`
 
 ## Installation 📦
 
 Clone the repo: git clone https://github.com/nunoguilherme/azure-stuff.git.
-Install Python dependencies: 'pip install -r requirements.txt.'
+Install Python dependencies: 
+`pip install -r requirements.txt.`
 
 ## Usage 🎯
 To run the project locally, follow these steps:
