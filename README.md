@@ -3,7 +3,7 @@
 
 This repository contains the code for the MiniCloud project, a showcase of Azure Cloud computing capabilities. The project provides a simple way to create and manage virtual machines, storage accounts, and deploying web applications all within Azure.
 
-![Microsoft-Azure-Logo-1](https://github.com/nunoguilherme/azure-stuff/assets/132608489/74815af2-63e0-4890-87b9-39155f5bfd7b)
+![R](https://github.com/nunoguilherme/azure-stuff/assets/132608489/2ebde8e7-aac5-4202-bd85-99fe67c3e269)
 
 
 ## Getting Started 🚀
