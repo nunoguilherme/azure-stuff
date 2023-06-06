@@ -3,6 +3,9 @@
 
 This repository contains the code for the MiniCloud project, a showcase of Azure Cloud computing capabilities. The project provides a simple way to create and manage virtual machines, storage accounts, and deploying web applications all within Azure.
 
+![Microsoft-Azure-Logo-1](https://github.com/nunoguilherme/azure-stuff/assets/132608489/74815af2-63e0-4890-87b9-39155f5bfd7b)
+
+
 ## Getting Started 🚀
 
 This project uses Python and the Azure SDK to interact with Azure services. Follow these steps to get a local copy up and running:
@@ -40,10 +43,7 @@ Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 
-## License 📄
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Made with 💜 by Nuno Guilherme
+~by Nuno Guilherme
 
 
 
